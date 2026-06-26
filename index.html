@@ -1,104 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <script
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=maps,marker"
-    defer
-></script>
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angkringan Bro Zack</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <div class="header">
+    <!--<h1>Angkringan Bro Zack</h1>-->
+
+  </div>
+
+  <div class="navigasi">
+    <center>
+      <a href="#">Home</a>
+      <a href="#Informasi">Tentang Kami</a>
+      <a href="galeri.html">Menu</a>
+      <a href="#pesan">Feedback</a>
+      <a href="#oke">Best Seller</a>
+      <a href="#informasi">Informasi</a>
+    </center>
 
 
-   <nav class="navbar">
-    <a href="#" class="navbar-logo">Angkringan<span>Bro Zack</span></a>
+  </div>
 
-    <div class="navbar-nav">
-        <a href="#Home">Home</a>
-        <a href="#about">Tentang Kami</a>
-        <a href="menu.html">Menu</a>
-        <a href="#kontak">Kontak</a>
+  <div class="content" id="Informasi">
+    <h2 align="center">Tentang Kami</h2>
+
+    <p>"Angkringan Bro Zack" hadir sebagai tempat nongkrong baru yang berdiri pada tahun 2025, membawa nuansa hangat
+      khas angkringan dengan cita rasa yang bikin nagih. Sajian sederhana namun penuh kenikmatan menjadi daya tarik
+      utama, terutama menu pedas yang menggugah selera. Pedasnya bukan sekadar rasa, tapi sensasi yang membuat setiap
+      suapan terasa istimewa dan sulit dilupakan. Dengan konsep angkringan modern namun tetap mempertahankan tradisi,
+      Bro Zack menghadirkan suasana santai untuk berkumpul bersama teman atau sekadar melepas penat. </p>
+    <p>Hidangan seperti nasi bakar, sate-satean, dan gorengan disajikan dengan sentuhan rasa khas yang membuat pelanggan
+      selalu ingin kembali. Angkringan ini bukan hanya sekadar tempat makan, tetapi juga ruang kebersamaan yang penuh
+      cerita. Sejak berdiri, "Angkringan Bro Zack" menjadi simbol kuliner pedas yang nikmat, nagih, dan selalu
+      dirindukan oleh para pecinta angkringan.</p>
+
+
+    <div class="slideshow-container">
+
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 5</div>
+        <img src="IMG/WhatsApp Image 2026-06-26 at 05.40.57.jpeg" style="width:100%">
+        <div class="text">Founder</div>
+      </div>
+
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 5</div>
+        <img src="IMG/WhatsApp Image 2026-06-26 at 05.40.56.jpeg" style="width:100%">
+        <div class="text">Suasana</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 5</div>
+        <img src="IMG/WhatsApp Image 2026-06-26 at 05.44.16.jpeg" style="width:100%">
+        <div class="text">Promo</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="IMG/WhatsApp Image 2026-06-26 at 06.04.21.jpeg" style="width:100%">
+        <div class="text">Board Game</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="IMG/WhatsApp Image 2026-06-26 at 06.03.38.jpeg" style="width:100%">
+        <div class="text">Pesta</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-   </nav>
+    <br>
 
-
-   <section class="hero" id="Home" background="IMG/angkringan.jpg">
-    <main class="content">
-        <h1>#Pedasnya <span>NAGIHHHHHhhhhh</span></h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, maxime.</p>
-        <a href="#" class="oke">Cobain Sekarang</a>
-    
-    </main>
-   </section>
-
-
-   <section id="about" class="about">
-    <h2><span>Tentang</span> Kami</h2>
-
-    <div class="row">
-        <div class="about-img">
-            <img src="IMG/angkringan.jpg" alt="Tentang Kami">
-        </div>
-        <div class="content">
-            <h3>Kenapa Memilih Kami</h3>
-            <p>Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Tempore, odio ut c
-                upiditate possimus doloremque magni? 
-                Doloribus laudantium ullam delectus 
-                quaerat. Placeat necessitatibus 
-                expedita dolorem consequuntur quas. 
-                Totam incidunt odit harum.</p>
-        </div>
-    </div>
-   </section>
-
-
-
-   <section id="menu" class="menu">
-    <h2>Menu <span>Kami</span></h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsum.</p>
-
-    <div class="row">
-        <div class="menu-card">
-            <img src="IMG/angkringan.jpg" alt="">
-            <h3>ofj</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-        </div>
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
     </div>
 
+    <br>
+    <br>
+    <br>
+    <hr>
+    <div id="oke" class="oke">
+      <h2 id="Foto" align="center">Menu Paling Banyak Terjual</h2>
+      <center>
+        <img src="IMG/nasbak.webp" alt="Nasbak">
+        <img src="IMG/sate kulit.jpg" alt="Sate Kulit">
+        <img src="IMG/sate ati ampla.webp" alt="Sate Ati Ampela">
+      </center>
 
+      <br>
+      <h4 style="text-align: center;">Nasi bakar <span> Sate kulit </span> <span>Sate ati Ampela</span></h4>
+      <center>
+        <button>
 
-    <div class="row">
-         <div class="menu-card">
-        <img src="IMG/angkringan.jpg" alt="">
-        <h3>ofj</h3>
-        <p>Lorem ipsum dolor sit amet.</p>
-        </div>
+          <center>
+
+            <a href="https://www.instagram.com/angkringan_brozack/?utm_source=ig_web_button_share_sheet">
+              Klik disini untuk informasi Lainnya </a>
+          </center>
+        </button>
+      </center>
     </div>
-   </section>
 
-   <section id="kontak" class="kontak">
-    <h2>Kontak <span>Kami</span></h2>
-    <p>Lorem ipsum dolor sit amet.</p>
+    </p>
+    <hr>
+    <br>
+    <br>
 
-   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214620.70878936583!2d105.68192694732603!3d-1.7558810948351489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e22eb0e0effd9a7%3A0x98604a54c1bd3302!2sSyahwa%20Home%20Industry!5e0!3m2!1sid!2sid!4v1782376808874!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <h2 align="center" id="informasi">Informasi Jam Buka</h2>
+
+    <table border="1" cellpadding="10px" cellspacing="1px">
+
+      <tr>
+
+        <th>Hari</th>
+        <th colspan="2">Waktu</th>
+
+      </tr>
+      <tr>
+        <td rowspan="2">Hari</td>
+        <td>Senin - Jum'at</td>
+        <td>19.00 - 01.00</td>
+
+      </tr>
+      <tr>
+        <td>Sabtu - Minggu</td>
+        <td>19.00 - 02.30</td>
 
 
-   </section>
+      </tr>
 
-   <section class="footer">
-    Copyright | Angkringan Bro Zack
-   </section>
+      <tr>
+        <td>Tanggal Merah</td>
+        <td colspan="3">All Day 20.00 - 02.00 </td>
+      </tr>
+    </table>
+
+  </div>
+
+  <hr>
+
+  <h2 align="center">Form Saran Mendukung</h2>
+
+  <div>
+
+    <div class="form-box" id="pesan">
+
+      <form action="">
+        <label for="Nama Lengkap">Nama Lengkap</label> <br>
+        <input type="text"> <br>
+        <br>
+
+        <label for="Email">Email</label> <br>
+
+        <input type="email"> <br>
+        <br>
+        <label for="Reward">Reward</label> <br>
+        <select name="" id="">
+          <option value="--Pilih--">--Pilih--</option>
+          <option value="Diskon 20%">Diskon 20%</option>
+          <option value="Blind Box One Piece">Blind Box One Piece</option>
+
+        </select> <br>
+        <br>
+
+        <label for="Saran untuk Meningkatkan kualitas Angkringan">Saran untuk Meningkatkan kualitas Angkringan</label>
+        <br>
+        <textarea name="" id="" rows="5"></textarea> <br>
+        <br>
+        <center>
+          <button type="Submit">Submit</button>
+          <button type="reset">Reset</button>
+        </center>
+      </form>
+
+    </div>
+
+    <br>
+
+  </div>
+
+  <div class="footer">
+    Copyright 2026 | Angkringan Bro Zack
+
+  </div>
+
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
 
 
-
-
-    
 </body>
+
 </html>
